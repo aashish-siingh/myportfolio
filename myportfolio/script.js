@@ -11,7 +11,7 @@ const typingText = document.getElementById('typingText');
 const profileImage = document.querySelector('.image-shell img');
 
 if (profileImage) {
-  profileImage.src = 'https://avatars.githubusercontent.com/u/180106386?v=4';
+  profileImage.src = 'myportfolio/ProfessionalPotrait.PNG?v=1';
   profileImage.alt = 'Aashish Singh portrait';
 }
 
