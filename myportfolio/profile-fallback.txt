@@ -1,1 +1,0 @@
-This file is intentionally unused. The portfolio portrait is served from profile-new.jpg.
