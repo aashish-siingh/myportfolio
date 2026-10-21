@@ -1,3 +1,8 @@
+const overrideStyles = document.createElement('link');
+overrideStyles.rel = 'stylesheet';
+overrideStyles.href = 'myportfolio/overrides.css?v=2';
+document.head.appendChild(overrideStyles);
+
 const navToggle = document.getElementById('navToggle');
 const navMenu = document.getElementById('navMenu');
 const scrollTopButton = document.getElementById('scrollTop');
@@ -41,9 +46,7 @@ scrollTopButton.addEventListener('click', () => {
 const observer = new IntersectionObserver(
   entries => {
     entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
+      if (entry.isIntersecting) entry.target.classList.add('visible');
     });
   },
   { threshold: 0.15 }
@@ -54,11 +57,9 @@ reveals.forEach(item => observer.observe(item));
 function typeLoop() {
   if (!typingText) return;
   const current = roles[roleIndex];
-
   if (!deleting) {
     typingText.textContent = current.slice(0, charIndex + 1);
     charIndex += 1;
-
     if (charIndex === current.length) {
       deleting = true;
       setTimeout(typeLoop, 1400);
@@ -67,15 +68,12 @@ function typeLoop() {
   } else {
     typingText.textContent = current.slice(0, charIndex - 1);
     charIndex -= 1;
-
     if (charIndex === 0) {
       deleting = false;
       roleIndex = (roleIndex + 1) % roles.length;
     }
   }
-
-  const speed = deleting ? 45 : 85;
-  setTimeout(typeLoop, speed);
+  setTimeout(typeLoop, deleting ? 45 : 85);
 }
 
 typeLoop();
