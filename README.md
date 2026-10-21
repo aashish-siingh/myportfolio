@@ -1,18 +1,18 @@
-# Aashish Singh — Portfolio
+# Aashish Singh — Data & Tech Portfolio
 
-Personal portfolio website highlighting my work in data analytics, software development, and Management Information Systems.
+A modern dark-theme portfolio highlighting my work in data analytics, software development, research, and Management Information Systems.
 
 ## About Me
 
-I am an MIS student at Minnesota State University, Mankato and an aspiring data scientist. My interests include data analytics, data visualization, information systems, software development, and using technology to solve business problems.
+I am a Management Information Systems student at Minnesota State University, Mankato and an aspiring data scientist. My interests include data analytics, data visualization, business intelligence, information systems, software development, and using technology to solve business problems.
 
 ## Featured Work
 
-- **Business Location Analyzer — In Development**  
-  A data-driven application exploring location, competition, market conditions, and weighted business criteria to support site-selection decisions.
+- **Data-Driven Business Location Analyzer — In Development**  
+  An ongoing research and application project exploring competition, demographics, market conditions, weighted criteria, and business-location decision support.
 
 - **Weather App**  
-  Web application that uses API-based weather data.
+  Responsive web application using API-based weather data.
 
 - **Explore Nepal**  
   Front-end travel website built with HTML, CSS, and JavaScript.
@@ -22,7 +22,18 @@ I am an MIS student at Minnesota State University, Mankato and an aspiring data 
 
 ## Technical Skills
 
-Python • SQL • Power BI • Tableau • Microsoft Excel • Java • C# • HTML • CSS • JavaScript
+Python • SQL • Power BI • Tableau • Microsoft Excel • Java • C# • HTML • CSS • JavaScript • GitHub
+
+## Portfolio Features
+
+- Responsive dark-theme design
+- Glassmorphism UI and modern card layouts
+- Scroll reveal animations
+- Animated role/title text
+- Mobile navigation
+- Featured research project section
+- Skills, experience, project, and contact sections
+- Professional portrait and internship-focused presentation
 
 ## Career Focus
 
