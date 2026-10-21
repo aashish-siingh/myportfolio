@@ -1,6 +1,6 @@
 const overrideStyles = document.createElement('link');
 overrideStyles.rel = 'stylesheet';
-overrideStyles.href = 'myportfolio/overrides.css?v=2';
+overrideStyles.href = 'myportfolio/overrides.css?v=3';
 document.head.appendChild(overrideStyles);
 
 const navToggle = document.getElementById('navToggle');
@@ -8,6 +8,13 @@ const navMenu = document.getElementById('navMenu');
 const scrollTopButton = document.getElementById('scrollTop');
 const reveals = document.querySelectorAll('.reveal');
 const typingText = document.getElementById('typingText');
+const profileImage = document.querySelector('.image-shell img');
+
+if (profileImage) {
+  profileImage.src = 'https://avatars.githubusercontent.com/u/180106386?v=4';
+  profileImage.alt = 'Aashish Singh portrait';
+}
+
 const roles = [
   'Aspiring Data Scientist',
   'MIS Student',
@@ -39,9 +46,11 @@ window.addEventListener('scroll', () => {
   }
 });
 
-scrollTopButton.addEventListener('click', () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-});
+if (scrollTopButton) {
+  scrollTopButton.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
 
 const observer = new IntersectionObserver(
   entries => {
