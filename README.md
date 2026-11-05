@@ -1,56 +1,29 @@
-# Aashish Singh — Data & Tech Portfolio
+# Aashish Singh | Software & Data Portfolio
 
-A modern dark-theme portfolio highlighting my work in data analytics, software development, research, and Management Information Systems.
+Management Information Systems student at Minnesota State University, Mankato. Interested in Python software development, data analytics, business intelligence, and turning ambiguous business problems into working tools.
 
-## About Me
+## Featured projects
 
-I am a Management Information Systems student at Minnesota State University, Mankato and an aspiring data scientist. My interests include data analytics, data visualization, business intelligence, information systems, software development, and using technology to solve business problems.
+| Project | Focus | Source |
+| --- | --- | --- |
+| **Business Location Analyzer** (research application, in development) | Multi-criteria business location selection and explanation | Research project; source not yet published here |
+| **Location Score Engine** (programming demo) | Explainable ranking, data validation, algorithm design, tests | [Source](https://github.com/aashish-siingh/CIS115/tree/main/projects/location-score-engine) |
+| **SQLite Expense Tracker** (programming demo) | Python CLI, SQL aggregation, local persistence, tests | [Source](https://github.com/aashish-siingh/CIS115/tree/main/projects/sqlite-expense-tracker) |
+| **Weather App** | Browser-based weather project | [Source](https://github.com/aashish-siingh/WeatherApp) |
+| **Explore Nepal** | Travel-themed web project | [Source](https://github.com/aashish-siingh/ExploreNepal) |
 
-## Featured Work
+## Technical interests
 
-- **Data-Driven Business Location Analyzer — In Development**  
-  An ongoing research and application project exploring competition, demographics, market conditions, weighted criteria, and business-location decision support.
+Python, SQL, Power BI, Tableau, Excel, HTML, CSS, JavaScript, and Git/GitHub. Exploring database technology, data engineering, and applied analytics.
 
-- **Weather App**  
-  Responsive web application using API-based weather data.
+## About this portfolio
 
-- **Explore Nepal**  
-  Front-end travel website built with HTML, CSS, and JavaScript.
-
-- **Nepflix**  
-  Netflix-inspired interface project focused on front-end layout and design.
-
-## Technical Skills
-
-Python • SQL • Power BI • Tableau • Microsoft Excel • Java • C# • HTML • CSS • JavaScript • GitHub
-
-## Portfolio Features
-
-- Responsive dark-theme design
-- Glassmorphism UI and modern card layouts
-- Scroll reveal animations
-- Animated role/title text
-- Mobile navigation
-- Featured research project section
-- Skills, experience, project, and contact sections
-- Professional portrait and internship-focused presentation
-
-## Career Focus
-
-I am building toward internship and career opportunities in:
-
-- Data Science
-- Data Analytics
-- Business Intelligence
-- Information Systems
-- Technology and Software Development
+The [website](index.html) is built using HTML, CSS, and JavaScript. It provides an overview of projects, research, and professional interests. The Python examples above are educational programming samples with code and tests. The Business Location Analyzer is a separate, ongoing research project.
 
 ## Connect
 
 - [LinkedIn](https://www.linkedin.com/in/aashishsiingh)
-- [GitHub](https://github.com/aashish-siingh)
+- [GitHub profile](https://github.com/aashish-siingh)
 - Email: intern.aashishsingh@gmail.com
 
----
-
-Built with HTML, CSS, and JavaScript.
+> Projects are documented with their actual scope and current state; planned capabilities are not presented as implemented.
